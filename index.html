@@ -68,35 +68,45 @@
 
         </main>
 
-    <div class="benefits">
-        <div class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <div class="benefit-brand">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <div class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+<!-- I changed this tag from a "div" tag to a main tag, to make it semantic; I chose main, since it contained multiple sections with-in this area of content. -->
+<main class="benefits">
+
+    <!-- I changed all the "div" tags with-in the "main class content" block to sections, so they will be semantic. I also added alts to the tags, to give the images descriptions for individuals utilizing screen readers. -->
+    <section class="benefit-lead">
+        <h3>Lead Generation</h3>
+        <img src="images/lead-generation.png" alt="Image Horiseon's logo for lead generation."></img>
         <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
+            Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
         </p>
-    </div>
+    </section>
+
+    <section class="benefit-brand">
+        <h3>Brand Awareness</h3>
+        <img src="images/brand-awareness.png" alt="Image Horiseon's logo for brand awareness."></img>
+        <p>
+            Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+        </p>
+    </section>
+
+    <section class="benefit-cost">
+        <h3>Cost Management</h3>
+        <img src="images/cost-management.png" alt="Image Horiseon's logo for cost management."></img>
+        <p>
+            As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+        </p>
+    </section>
+
+</main>
+
+<!-- I changed "div class="footer" to "footer"-->
+<footer>
+<h2>Made with ❤️️ by Horiseon</h2>
+<p>
+    &copy; 2019 Horiseon Social Solution Services, Inc.
+</p>
+</footer>
+
 </body>
 
 </html>
+<!-- All links, text, and images have been cross checked for proper function with the use of Google Vox, and they work as intended per accessibility standard. -->
