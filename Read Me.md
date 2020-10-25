@@ -19,7 +19,7 @@ Horisean is on the leader board, in the Digital Marketing and Lead Generation sp
 Another reason why this project should be undertook, is because of the Scouts Rule. This web application needs work. As a web developer, representing the skill set, we take pride in our craft. If we know there is work to be done, the desire to take on the challenge, should motivate us to resolve the issue.
 
 ## Screen shot of the web application
-<img width="214" alt="Horiseon Website Screen Shoot" src="https://user-images.githubusercontent.com/69878838/97097258-05281700-1645-11eb-8e6a-c1dad5d7b19f.png">
+<img width="214" alt="Horiseon Website Screen Shoot" src="screenshot2.png">
 
 ## What I have done to this Web App
 The first thing that I did was add Meta Data, so Horiseon's site would be hooked during key word and description searches online. I changed the syntax in HTML and CSS, to be more senamatic. I also added alt's to the image tags: this allows screen readers to give a description of what an image is or represents. 
