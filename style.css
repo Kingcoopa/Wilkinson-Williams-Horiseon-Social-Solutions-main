@@ -59,6 +59,16 @@ p {
     font-size: 20px;
 }
 
+/* I had to add a margin-right of 0%, so the background would fill its designated area. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-right: 0%;
+    background-image: url("digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
 /* I relocated the .content, .benefits, .search-engine.., and benefit-lead.. selectors so they will be in the order they are used in the html file. */
 .content {
     width: 75%;
