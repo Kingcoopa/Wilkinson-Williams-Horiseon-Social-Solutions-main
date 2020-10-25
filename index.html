@@ -37,29 +37,37 @@
       
     <!-- I change the "div" in this class to a figure, since it displays an image. -->
     <figure class="hero"></figure>
-    
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </div>
-    </div>
+
+        <!-- I changed this tag from a "div" tag to a main tag, to make it semantic; I chose main, since it contained multiple sections with-in this area of content. -->
+        <main class="content">
+
+            <!-- I changed all the "div" tags with-in the "main class content" block to sections, so they will be semantic. I also added alts to the tags, to give the images descriptions for individuals utilizing screen readers. I also corrected the img tags to the correct format. -->
+            <section class="search-engine-optimization">
+                <img src="images/search-engine-optimization.jpg" class="float-left" alt="Image of an individuals work area. There is a note pad; sitting on a desk; next to pencils and markers. On the note pad; there is a visualization of what Search Engine Optimization represents, for the professional."></img>
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+            </section>
+
+            <section id="online-reputation-management" class="online-reputation-management">
+                <img src="images/online-reputation-management.jpg" class="float-right" alt="Image of an individual in a business suit, working on their laptop, at a desk. On the individuals laptop, there is an image. The image on the laptop, is a bar graph. The bar graph is showing an increase in online reputation. "></img>
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                </p>
+            </section>
+
+            <section id="social-media-marketing" class="social-media-marketing">
+                <img src="images/social-media-marketing.jpg" class="float-left" alt="Image of six people at a table. On the table there is multiple electronic devices. There is multiple  comment bubbles on the table; which demonstrate a brain storming session. The individuals at the table are brainstorming an optimal social media marketing campaign. "></img>
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                </p>
+            </section>
+
+        </main>
+
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
